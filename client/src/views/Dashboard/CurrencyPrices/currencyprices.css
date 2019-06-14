@@ -1,0 +1,31 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+.currencyprices {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around;
+  align-content: center;
+  font-size: 0.95em;
+  font-weight: 400;
+}
+
+.currencyprices img {
+  margin-right: 3px;
+}
+
+.currencyprices-currency {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 900px) {
+  .currencyprices-container {
+    padding-left: 25px;
+    padding-right: 22px;
+    margin-bottom: 22px;
+  }
+}
+
+.slick-arrow:before {
+  color: rgb(83, 86, 92);
+}

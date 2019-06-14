@@ -1,0 +1,104 @@
+/* url("//web.poecdn.com/gen/image/WzUsMTQseyJzdCI6IiIsImNvbG91ciI6IlciLCJzIjowLjYwODUxOTI2OTc3Njg3NjN9XQ/ad267d691f/Socket.png") */
+
+.modal-item {
+  color: rgb(136, 136, 255);
+  text-align: center;
+  background: rgb(17, 17, 17);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 0.95em;
+  box-sizing: border-box;
+  font-family: 'fontin', Fallback, sans-serif;
+}
+
+@font-face {
+  font-family: 'fontin';
+  src: url('../../assets/fonts/Fontin-SmallCaps.otf') format('opentype');
+}
+
+.modal-item p {
+  margin: 4px 0 4px 0;
+}
+
+.modal-item-title {
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+@media (min-width: 400px) {
+  .modal-item-title p {
+    font-size: 1.3em;
+  }
+  .modal-item-split,
+  .modal-item-levelrequired {
+    padding: 5px 10px;
+  }
+}
+
+.modal-item-levelrequired span {
+  color: #7f7f7f;
+}
+
+.modal-item-levelrequired {
+  color: #dadada;
+}
+
+.modal-item-split,
+.modal-item-levelrequired {
+  padding: 5px 20px;
+  background-size: 100% 1px !important;
+}
+
+.modal-item-flavourtext p {
+  color: rgb(175, 96, 37);
+  padding: 0px 20px;
+  font-style: italic;
+}
+
+#modal-item-dialog-text {
+  color: #dadada !important;
+}
+
+.modal-item-dialog-title-content {
+  line-height: 39px;
+  color: #dadada;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.modal-item-closebutton {
+  max-height: 30px;
+}
+
+.modal-item-addbutton {
+  margin: 0px !important;
+  border-radius: 0px 0px 4px 4px !important;
+}
+
+.modal-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* aligns a 5/6 link item in the center to overlay the links */
+
+.modal-item-icon-linked {
+  position: relative;
+  left: 47px;
+}
+
+.modal-item-info p {
+  color: #dadada;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.modal-item-info img {
+  height: 30px;
+  width: 30px;
+  transform: translateY(10px);
+}

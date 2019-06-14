@@ -1,0 +1,27 @@
+.stats-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stats-footer button {
+  color: #DADADA !important;
+}
+
+/* put the currency below the title unless it can fit 999999 of each */
+
+@media (min-width: 450px) {
+  .stats-header {
+    display: flex;
+    justify-content: space-between;
+    height: 44.10px;
+  }
+}
+
+.stats-header-currency {
+  display: flex;
+}
+
+.stats-header-currency-orb {
+  transform: translateY(4px);
+  margin-left: 10px;
+}

@@ -1,0 +1,31 @@
+.customtabs-search {
+  display: flex !important;
+  min-width: 100% !important;
+  &-select {
+    width: 88%;
+    margin-bottom: 15px !important;
+    margin-left: 2%;
+  }
+  &-custom {
+    transition: 0.1s ease;
+    height: 38px;
+    width: 10%;
+    padding: 0px;
+    margin: 0px;
+    color: #d3d3d5;
+    border-color: #2a2c31;
+    background: #484b51;
+    font-size: 0.95em;
+    font-weight: 400;
+    text-transform: capitalize;
+    &:hover {
+      background: #3c3e44;
+      transition: 0.1s ease;
+    }
+  }
+}
+
+/*  fixes z-index for dropdown */
+.my-select__menu {
+  z-index: 9999 !important;
+}

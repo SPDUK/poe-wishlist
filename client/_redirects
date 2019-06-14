@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://agitated-noyce-54db29.netlify.com/* https://poewishlist.xyz/:splat 301!
