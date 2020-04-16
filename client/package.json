@@ -19,7 +19,7 @@
     "prop-types": "^15.6.2",
     "react": "16.4.1",
     "react-chartist": "0.13.1",
-    "react-dom": "16.4.1",
+    "react-dom": "16.4.2",
     "react-ga": "^2.5.6",
     "react-lazyload": "^2.3.0",
     "react-router-dom": "4.3.1",
